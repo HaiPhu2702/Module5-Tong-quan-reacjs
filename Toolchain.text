@@ -1,0 +1,48 @@
+Khái niệm toolchain
+Toolchain là chuỗi công cụ tích hợp trong quá trình phát triển giúp đem đến trải nghiệm tốt nhất cho người dùng và nhà phát triển như:
+
+Mở rộng quy mô cho nhiều file và component.
+Sử dụng thư viện của bên thứ ba từ npm.
+Phát hiện sớm các lỗi thường gặp.
+Chỉnh sửa trực tiếp CSS và JS đang được phát triển.
+Tối ưu hóa đầu ra cho production.
+Một số toolchain phổ biến
+Trong bài này chúng ta sẽ cùng kể tên về một số công cụ React phổ biến và sẽ đi tìm hiểu chi tiết một số toolchain trong các bài học tiếp theo.
+
+NPM
+
+npm tên đầy đủ là Node Package Manager, một trình quản lý các thư viện trong môi trường Node.js. Các thư viện được đóng gói dưới dạng package và được lập trình viên đóng góp, chia sẻ trên npm registry (cơ sở dữ liệu của npm)
+
+Khi một dự án cần đến một thư viện từ npm, lập trình viên có thể sử dụng câu lệnh cài đặt thư viện đó thông qua CLI (Command line interface ), là giao diện dòng lệnh và đây là cách mà hầu hết các lập trình viên sử dụng để tương tác với npm.
+
+Ví dụ về một câu lệnh cài đặt thư viện Next.js
+
+npm install next
+NPX
+
+npx (Node Package Execute), là một công cụ để chạy package mà không cần phải cài đặt. Hãy xem một ví dụ dưới đây để hình dung được lợi ích mà npx đem lại cho chúng ta:
+
+Để tạo một dự án Reactjs, sử dụng câu lệnh
+
+npx create-react-app app-name
+Với npx, bạn không cần cài đặt package create-react-app vào dự án, package chỉ cần thực thi một lần với nhiệm vụ khởi tạo một dự án mới với các mô-đun cần thiết.
+
+Yarn
+
+Yarn là công cụ quản lý package tương tự như npm và được phát triển bởi Facebook. Lập trình viên có thể thực hiện các câu lệnh để cài đặt, thực thi các câu lệnh thông qua CLI.
+
+Webpack
+
+webpack cho phép bạn viết code mô-đun và gói nó lại với nhau thành các gói nhỏ để tối ưu hóa thời gian tải.
+
+Babel
+
+Babel là một trình biên dịch javascript, nó được sử dụng để chuyển đổi mã JavaScript chuẩn mới (ECMAScript 2015+) về phiên bản cũ hơn để đảm bảo chương trình của bạn có thể hoạt động bình thường trong các trình duyệt cũ.
+
+Next.js
+
+Next.js là một framework phổ biến và nhẹ cho ứng dụng static và server‑rendered được xây dựng bằng React.
+
+Gatsby
+
+Gatsby giúp tạo các website tĩnh với React. Nó cho phép bạn sử dụng các component của React, nhưng xuất ra HTML và CSS được render trước để đảm bảo thời gian tải nhanh nhất.

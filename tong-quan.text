@@ -1,0 +1,25 @@
+[Bài đọc] Tổng Quan về React JS
+React là một thư viện front-end do Facebook phát triển được sử dụng để xử lý tầng view cho các ứng dụng web và thiết bị di động. ReactJS cho phép chúng ta tạo các thành phần UI có thể tái sử dụng. Hiện ReactJS là một trong những thư viện JavaScript phổ biến nhất và có nền tảng vững chắc cũng như có một cộng đồng lớn.
+
+Nếu bạn muốn làm việc với ReactJS, bạn cần phải có kiến thức vững chắc về JavaScript, HTML5 và CSS. Mặc dù ReactJS không sử dụng HTML, nhưng JSX tương tự như vậy nên kiến thức HTML của bạn sẽ rất hữu ích. Chúng ta sẽ cùng tìm hiểu điều này nhiều hơn trong những chương tiếp theo.
+
+Tổng Quan
+ReactJS là thư viện JavaScript được sử dụng để xây dựng các thành phần UI có thể tái sử dụng. Định nghĩa React như sau
+
+React là một thư viện để xây dựng giao diện người dùng. Nó khuyến khích việc tạo ra các thành phần giao diện người dùng có thể tái sử dụng, hiển thị dữ liệu thay đổi theo thời gian. Rất nhiều người sử dụng React làm V trong mô hình MVC. React trừu tượng hóa DOM, cung cấp một mô hình lập trình đơn giản hơn và hiệu suất tốt hơn. React cũng có thể hiển thị trên máy chủ bằng Node và nó có thể phát triển ứng dụng mobile sử dụng react native. React triển khai luồng dữ liệu một chiều.
+
+Tính năng của React
+JSX – JSX là phần mở rộng cú pháp JavaScript. Không nhất thiết phải sử dụng JSX trong phát triển React, nhưng nó được khuyến khích.
+Component – Làm việc với React là làm việc với các Component. Bạn cần tư duy mọi thứ theo hướng component. Component sẽ giúp bạn dễ dàng chỉnh sửa, phát triển khi làm việc trên các dự án quy mô lớn.
+One-way và Flux – React triển khai luồng dữ liệu một chiều giúp bạn dễ dàng suy luận về ứng dụng của mình. Flux là một mẫu giúp giữ dữ liệu của bạn theo một phương hướng duy nhất
+Ưu điểm của React
+Bạn hoàn toàn có thể sử dụng ReactJS để viết ứng dụng trực tiếp bằng JavaScript.
+Biến các thành phần UI phức tạp trở thành những component độc lập.
+Chuyển các dữ liệu đã được tùy biến đến một UI component cụ thể.
+Giúp bạn có thể thay đổi trạng thái cho nhiều component con và không gây ảnh hưởng đến component gốc.
+Khả năng xác định chính xác khi nào cần render lại cũng như khi nào bỏ đi phần tử DOM.
+ Nhược điểm của React
+Reactjs chỉ phục vụ cho tầng View. React chỉ là View Library nó không phải là một MVC framework như những framework khác. Đây chỉ là thư viện của Facebook giúp render ra phần view. Vì thế React sẽ không có phần Model và Controller, mà phải kết hợp với các thư viện khác. React cũng sẽ không có 2-way binding hay là Ajax
+Tích hợp Reactjs vào các framework MVC truyền thống yêu cầu cần phải cấu hình lại.
+React khá nặng nếu so với các framework khác React có kích thước tương tương với Angular (Khoảng 35kb so với 39kb của Angular). Trong khi đó Angular là một framework hoàn chỉnh
+Khó tiếp cận cho người mới học Web
